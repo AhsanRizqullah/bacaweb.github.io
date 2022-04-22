@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+
+@font-face {
+    font-family: "ArabFont";
+    src: url("NotoSansArabic-Medium.ttf");
+    }
+body{
+    text-align: center;
+}
+
+.ArabFont{
+    font-family: 'ArabFont', serif;
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 36px;
+}  
+
+
+.Judul{
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    font-size: 48px;
+    margin-top: 80px;
+    filter : drop-shadow(1px 2px 2px #787878);
+    text-align: center;
+}
+
+.ThesisContainer{
+    width: 100%;
+}
+
+.Thesis{
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 24px;
+    text-align: center;
+    margin: 18px;
+}
+
+.AbjadContainer{
+    background-color: white;
+    margin: 8%;
+    filter : drop-shadow(1px 2px 2px #787878);
+    border-radius: 8px;
+    margin-top: 34px;
+    padding: 16px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-width: 80%;
+
+}
+
+.AbjadContainerLeftContent{
+    text-align: start;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+.UcapanContainer{
+    padding:12px;
+    width: 80%;
+    display: flex;
+}
+
+.UcapanKeteranganStyle{
+    margin-top: 12%;
+    margin-left: 24%;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+}
+
+.BentukHurufStyle{
+    margin-left: 8%;
+    background-color: white;
+
+}
